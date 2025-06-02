@@ -8,3 +8,11 @@
 }
 ```
 
+### Git关闭autocrlf
+```powershell
+# 为当前仓库设置
+git config core.autocrlf false
+
+# 或者，为全局设置（影响所有仓库）
+git config --global core.autocrlf false
+```
